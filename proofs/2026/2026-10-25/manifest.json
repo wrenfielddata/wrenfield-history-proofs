@@ -1,0 +1,51 @@
+{
+  "schema": "wrenfield-history-manifest/v1",
+  "dataset": "wrenfield-history (L4 daily panel: AI answers, keyword demand, SERP features)",
+  "snapshot": "2026-10-25",
+  "sealed_at": "2026-10-25T07:32:25-07:00",
+  "hash_alg": "sha256",
+  "files": [
+    {
+      "path": "ai_answers.json",
+      "sha256": "6ea6c4864db01dd898e621e771d6398f0313d63a8ef1b40d3ed26d7226a3fe32"
+    },
+    {
+      "path": "keywords.json",
+      "sha256": "a43c4c75bc5c9e0edce8bbf8e4ef12da5f5722716b980e6f4bccc1bd020325f9"
+    },
+    {
+      "path": "meta.json",
+      "sha256": "ca16ac8a2deb4b0ea244935c6e7c9d8e76153404f15d8c507623557d943cd376"
+    },
+    {
+      "path": "panel/engines.json",
+      "sha256": "d3ba5f82dbf2e9e645da618e366c20dfc5864306ccbe964c94adc9135ce6c713"
+    },
+    {
+      "path": "panel/keywords.json",
+      "sha256": "459dfa088984430592d47964d212e5952900c1e3c64355630bf97dde7a3a3eff"
+    },
+    {
+      "path": "panel/prompts.json",
+      "sha256": "898467ea150414cf25618cc7a936818c95f688813b8ccd9940274f624b73a72d"
+    },
+    {
+      "path": "panel/serp_queries.json",
+      "sha256": "3ee4c3a02bce3b3bf7b89eeef90a29e8b918be6ae37c97e20b3e9b19ffb7e79a"
+    },
+    {
+      "path": "serp_features.json",
+      "sha256": "e3e9b2b069a216eb08f22844107a7a25273828b9062284ffa62c6d48d07b4047"
+    },
+    {
+      "path": "summary.md",
+      "sha256": "12fc398a4f9bea1b42d7296d8de85345493368283150b4612966fd0277429403"
+    }
+  ],
+  "merkle_root": "3ea3a5163e3211243ee994d508d6dd536e6aae0cbcc1ca22e4b38dbb1a8f5a8c",
+  "prev_manifest": "2026-10-22",
+  "prev_manifest_sha256": "d2c26ede73d85ac5b0d6699f3d24682d7826bfbcaf2fb2371456b42f88fabd00",
+  "signing_key_id": "fb32a597ddcdfe79",
+  "signature_alg": "ed25519 over the exact bytes of manifest.json",
+  "note": "Hashes only. The underlying data is private; any file can be verified by anyone it is shared with."
+}
